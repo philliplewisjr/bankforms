@@ -6,27 +6,29 @@
 </head>
 
 <body>
-	<header>BESIDE THE RIVER LOAN APPLICATION</header>
-   <div class="adminSpace">
-		<form>
-		<ol>
-			<li>FIRST NAME: <input type="text" name="surname" size="25 maxlength="40"></li>
-			<li>	MIDDLE INITIAL: <input type="text" name="surname" size="25 maxlength="40"></li>
-			<li>	LAST NAME: <input type="text" name="surname" size="25 maxlength="40"></li>
-			<li>	APPLICANT ADDRESS: <input type="text" name="surname" size="25 maxlength="40"></li>
-			<li>	APPLICANT OCCUPATION <input type="text" name="surname" size="25 maxlength="40"></li>
-			<li>	APPLICANT EMPLOYER: <input type="text" name="surname" size="25 maxlength="40"></li>
-		</ol>		
-		</form>
-	</div>	
-			<div class="box box2">	
-				<p>TYPE OF LOAN <select name="Type Loan">TYPE OF LOAN:
+	<header>LOAN APPLICATION</header>
+	   <div class="container">
+			<form>
+			<ol>
+				<li>FIRST NAME: <input type="text" name="surname" size="25 maxlength="40"></li>
+				<li>	MIDDLE INITIAL: <input type="text" name="surname" size="25 maxlength="40"></li>
+				<li>	LAST NAME: <input type="text" name="surname" size="25 maxlength="40"></li>
+				<li>	APPLICANT ADDRESS: <input type="text" name="surname" size="25 maxlength="40"></li>
+				<li>	APPLICANT OCCUPATION: <input type="text" name="surname" size="25 maxlength="40"></li>
+				<li>	APPLICANT EMPLOYER: <input type="text" name="surname" size="25 maxlength="40"></li>
+			</ol>		
+			</form>
+		
+	<div class="item 1" item>	
+			<div class="item 2" item>
+                <p>TYPE OF LOAN:
+			    <select name="Type Loan">
 					<option value="COM">Commercial</option>
 					<option value="Rel">Real Estate</option>
 					<option value="Per">Personal</option>
-					<option value="Mort">Mortgage</option>
-				</p>	
+					<option value="Mort">Mortgage</option>	
 				</select>
+				</p>
 				<p>Amount: <select>
 					<option value="50">50,000</option>
 					<option value="75">75,000</option>
@@ -36,8 +38,34 @@
 					<option value="200">200,000</option>
 				</p>	
 				</select>
-			</div>
-</div>				
+				<p>LOAN LENGTH: 
+					<input type="radio" name="loan length" value="5 years">5 YEAR
+					<input type="radio" name="loan length" value="15 years">15 YEAR
+					<input type="radio" name="loan length" value="30 years">30 YEAR
+					</p>
+			 	<p>SPECIAL CONDITIONS:
+			 	   <ol>
+				 	 <li><input type="checkbox" name="special conditions" value="I have a downpayment">I have a down payment</li>
+				 	<li><input type="checkbox" name="special conditions" type="Married">Married</li>
+				 	<li><input type="checkbox" name="special conditions" type="Loan will be co-signed">Loan will be co-signed</li>		 	   	
+				   </ol>
+                </p>
+            </div>	
+       </div>	
+	</div>
+		 
+	        <form>
+	            MESSAGE:
+	            <br>
+				<textarea name="message" rows="4" cols="30"></textarea>
+				EMAIL:
+				<input type="text" name="email" size="25" maxlength="40">
+				PHONE:
+				<input type="text" name="phone" size="25">
+				APPLICANT LinkedIn:
+				<input type="text" name="URL" size="30">
+		     </form>
+
 </body>
 
 
